@@ -134,7 +134,7 @@ Funcion mayor_Y_menor_secuencia(limite)
 			Si num > mayor Entonces
 				mayor = num
 			SiNo
-				Si num1 < menor Entonces
+				Si num < menor entonces
 					menor = num
 				FinSi
 			FinSi
@@ -568,7 +568,7 @@ Algoritmo Menu
 	// presentar el menor de 3 numeros ingresados
 	menuNumeros[5] = "5)Mayor de tres numeros"
 	// La despensa "El Baraton", a todas las ventas que pasen de $100,
-	//se les aplicará un  descuento del 10%, a  todo los demás se les aplicará sólo el 5% 
+	//se les aplicarÃ¡ un  descuento del 10%, a  todo los demÃ¡s se les aplicarÃ¡ sÃ³lo el 5% 
 	// luego del recargo del iva del 12%
 	menuNumeros[6] = "6)Comprar productos"
 	// Ingresar el nombre,horas trabajadas, valor hora, horas50 y horas100 de sobretiempo
